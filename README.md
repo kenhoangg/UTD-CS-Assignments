@@ -3,4 +3,4 @@ In this repository I have included most of the assignments and projects I have w
 
 The projects are separated by class name using the class codes at UTD e.g. CS4485.
 
-Disclaimer: Some of these projects may have missing files or may be versions of projects that do not work properly. These are just proof of projects I have done while at UTD.
+Disclaimer: Some of these projects may have missing files or may be versions of projects that do not work in their entirety to prevent plagarism.
