@@ -1,0 +1,17 @@
+argc was: 1
+./hw1
+Done!
+argc was: 4
+./hw1
+abc
+ab
+bc
+Done!
+argc was: 6
+./hw1
+a
+b
+c
+d
+e
+Done!

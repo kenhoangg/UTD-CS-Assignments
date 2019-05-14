@@ -1,0 +1,1395 @@
+{cslinux1:~} emacs file1.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[33m// Function prototype                                                           [39;49m
+M
+[32mvoid[39;49m [1m[34mprocedure1[0m[39;49m();[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m([32mint[39;49m [33margc[39;49m, [32mchar[39;49m* [33margv[39;49m[]){[K
+  cout << [32m"argc was: "[39;49m << argc;[K
+  [32mint[39;49m [33mcount[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (count < argc)[K
+    cout << argv[count];[K
+  procedure1();[K
+  cout << [32m"Done!"[39;49m;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mfile1.cc    [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[23;34H[?25l[3m2[0m[39;49m[23m[H
+
+[34h[?25h[34l[23;34H[?25l[3m3[0m[39;49m[23m[4;1H[34h[?25h[34l[23;34H[?25l[3m4[0m[39;49m[23m[5;1H[34h[?25h[34l[23;34H[?25l[3m5[0m[39;49m[23m[6;1H[34h[?25h[34l[23;34H[?25l[3m6[0m[39;49m[23m[7;1H[34h[?25h[34l[23;34H[?25l[3m7[0m[39;49m[23m[8;1H[34h[?25h[34l[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[23;34H[?25l[3m8[0m[39;49m[23m[9;19H[34h[?25h[34l[C[23;34H[?25l[3m7[0m[39;49m[23m[8;20H[34h[?25h[34l[C[C[C		[C[C[C[C[C[C[?25l]){[K[23;6H[3m**[0m[39;49m[23m[8;30H[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25lcha]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25lin]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l]){[K[34h[?25h[34l[?25l[33mmain[39;49m]){[K	[34h[?25h[34l[?25l[1m[34mmain[0m[39;49m(]){[34h[?25h[34l[?25l){[K[34h[?25h[34l[?25li){[34h[?25h[34l[?25ln){[34h[?25h[34l[?25l[32mint[39;49m){[34h[?25h[34l[?25l ){[34h[?25h[34l[?25l[33ma[39;49m){[34h[?25h[34l[?25l[33mr[39;49m){[34h[?25h[34l[?25l[33mg[39;49m){[34h[?25h[34l[?25l[33mc[39;49m){[34h[?25h[34l[?25l,){[34h[?25h[34l[?25l ){[34h[?25h[34l[?25lc){[34h[?25h[34l[?25lh){[34h[?25h[34l[?25la){[34h[?25h[34l[?25l[32mchar[39;49m){[34h[?25h[34l[?25l ){[34h[?25h[34l[?25l*){[34h[?25h[34l[?25l[33ma[39;49m){[34h[?25h[34l[?25l[33mr[39;49m){[34h[?25h[34l[?25l[33mg[39;49m){[34h[?25h[34l[?25l[33mv[39;49m){[34h[?25h[34l[?25l[33mp[39;49m){[34h[?25h[34l[?25l[){[34h[?25h[34l[?25l){[K[34h[?25h[34l[?25l[){[34h[?25h[34l[?25l]){[34h[?25h[34l	[?25l[]){[K[34h[?25h[34l[C		[C[23;34H[?25l[3m8[0m[39;49m[23m[9;32H[34h[?25h[34l[23;34H[?25l[3m9[0m[39;49m[23m[10;17H[34h[?25h[34l[23;34H[?25l[3m10[0m[39;49m[23m[11;23H[34h[?25h[34l[23;35H[?25l[3m1[0m[39;49m[23m[12;25H[34h[?25h[34l[23;35H[?25l[3m2[0m[39;49m[23m[13;16H[34h[?25h[34l[23;35H[?25l[3m3[0m[39;49m[23m[14;19H[34h[?25h[34l[23;35H[?25l[3m4[0m[39;49m[23m[15;2H[34h[?25h[34l[23;35H[?25l[3m5[0m[39;49m[23m[16;1H[34h[?25h[34l[24;1H[?25lEnd of buffer[16;1H[34h[?25h[34l[24;1H[K[23;35H[?25l[3m4[0m[39;49m[23m[15;2H[34h[?25h[34l[24;1H[?25lSaving file /home/012/k/kt/kth140230/file1.cc...[15;2H[34h[?25h[34l[24;1H[?25lWrote /home/012/k/kt/kth140230/file1.cc[K[15;2H[34h[?25h[34l[23;6H[?25l[3m--[0m[39;49m[23m[15;2H[34h[?25h[34l[24;1H[K[15;2H[24;1H[?25l(No files need saving)[15;2H[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} ls ./[K[K[K[K[Kemacs file2.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[32mvoid[39;49m [1m[34mprocedure1[0m[39;49m(){[K
+  cerr << [32m"Inside procedure1() as stderr."[39;49m;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mfile2.cc    [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} 
+{cslinux1:~} more stderr.txt
+{cslinux1:~} less [K[K[K[K[Kless [K[K[K[K[Kemacs run.sh
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lSetting up indent for shell type bash[K[H
+[34h[?25h[34l[24;1H[?25lsetting up indent stuff[K[H
+[34h[?25h[34l[24;1H[?25lIndentation variables are now local.[H
+[34h[?25h[34l[24;13H[?25lsetup for shell type bash[H
+[34h[?25h[34l[24;1H[?25lIndentation setup for shell type bash[K[H[3mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[23m
+M
+[33m#!/bin/[39;49m[1m[36mbash[0m[39;49m[33m                                                                     [39;49m
+M
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 0 arguments:"[39;49m[K
+./hw1 >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 3 arguments:"[39;49m[K
+./hw1 abc ab bc >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 5 arguments:"[39;49m[K
+./hw1 a b c d e >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mrun.sh      [0m[39;49m[23m[3m   All L1     (Shell-script[bash]) --------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} emacs fiel1[K[K[K[Kile1.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[33m// Function prototype                                                           [39;49m
+M
+[32mvoid[39;49m [1m[34mprocedure1[0m[39;49m();[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m([32mint[39;49m [33margc[39;49m, [32mchar[39;49m *[33margv[39;49m[]){[K
+  cout << [32m"argc was: "[39;49m << argc;[K
+  [32mint[39;49m [33mcount[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (count < argc)[K
+    cout << argv[count];[K
+  procedure1();[K
+  cout << [32m"Done!"[39;49m;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mfile1.cc    [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lBeginning of buffer[K[H
+[34h[?25h[34l[24;1H[K[23;34H[?25l[3m2[0m[39;49m[23m[H
+
+[34h[?25h[34l[23;34H[?25l[3m3[0m[39;49m[23m[4;1H[34h[?25h[34l[23;34H[?25l[3m4[0m[39;49m[23m[5;1H[34h[?25h[34l[23;34H[?25l[3m5[0m[39;49m[23m[6;1H[34h[?25h[34l[23;34H[?25l[3m6[0m[39;49m[23m[7;1H[34h[?25h[34l[23;34H[?25l[3m7[0m[39;49m[23m[8;1H[34h[?25h[34l[23;34H[?25l[3m8[0m[39;49m[23m[9;1H[34h[?25h[34l[23;34H[?25l[3m9[0m[39;49m[23m[10;1H[34h[?25h[34l[23;34H[?25l[3m10[0m[39;49m[23m[11;1H[34h[?25h[34l[23;35H[?25l[3m1[0m[39;49m[23m[12;1H[34h[?25h[34l[23;35H[?25l[3m2[0m[39;49m[23m[13;1H[34h[?25h[34l[23;35H[?25l[3m3[0m[39;49m[23m[14;1H[34h[?25h[34l[23;35H[?25l[3m4[0m[39;49m[23m[15;1H[34h[?25h[34l[C[23;35H[?25l[3m3[0m[39;49m[23m[14;2H[34h[?25h[34l[23;35H[?25l[3m2[0m[39;49m[23m[13;2H[34h[?25h[34l[23;35H[?25l[3m1[0m[39;49m[23m[12;2H[34h[?25h[34l[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[23;35H[?25l[3m0[0m[39;49m[23m[11;21H[34h[?25h[34l[C[K
+[?25l)[K
+[C  cout << argv[count];[14;3Hprocedure1();[K
+  cout << [32m"Done!"[39;49m;
+}[23;6H[3m**--F1  [0m[39;49m[23m[3m[1mfile1.cc    [0m[39;49m[23m[3m   All L11[0m[39;49m[23m[12;1H[34h[?25h[34l[11;22H[?25l)
+    cout << argv[count];[13;3Hprocedure1();[K[14;3Hcout << [32m"Done!"[39;49m;
+}[K
+[K[23;35H[3m0[0m[39;49m[23m[11;22H[34h[?25h[34l[C[?25l{[34h[?25h[34l
+[K[13;3H[?25l  cout << argv[count];[14;3Hprocedure1();[K
+  cout << [32m"Done!"[39;49m;
+}[23;35H[3m1[0m[39;49m[23m[12;1H[34h[?25h[34l[23;35H[?25l[3m2[0m[39;49m[23m[13;1H[34h[?25h[34l[C[23;35H[?25l[3m1[0m[39;49m[23m[12;1H[34h[?25h[34l[12;5H[?25lcout << argv[count];[13;3Hprocedure1();[K[14;3Hcout << [32m"Done!"[39;49m;
+}[K
+[K[23;35H[3m0[0m[39;49m[23m[11;24H[34h[?25h[34l[23;35H[?25l[3m1[0m[39;49m[23m[12;24H[34h[?25h[34l	
+[K[14;3H[?25lprocedure1();[K
+  cout << [32m"Done!"[39;49m;
+}[23;35H[3m2[0m[39;49m[23m[13;1H[34h[?25h[34l[13;5H[?25l[32mc[39;49m
+[33mprocedure1[39;49m[13;6H[34h[?25h[34l[?25l[32mo[39;49m[34h[?25h[34l[?25l[32mu[39;49m[34h[?25h[34l[?25l[32mn[39;49m[34h[?25h[34l[?25l[32mt[39;49m[34h[?25h[34l[?25lcount+[14;3Hprocedure1M[34h[?25h[34l[?25l+[34h[?25h[34l[?25l;[34h[?25h[34l
+[K[15;3H[?25lprocedure1();[K
+  cout << [32m"Done!"[39;49m;
+}[23;35H[3m3[0m[39;49m[23m[14;1H[34h[?25h[34l[C[C[?25l}[23;35H[3m0[0m[39;49m[23m[11;23H[34h[?25h[34l[23;35H[?25l[3m3[0m[39;49m[23m[14;4H[34h[?25h[34l[24;1H[?25lSaving file /home/012/k/kt/kth140230/file1.cc...[14;4H[34h[?25h[34l[24;1H[?25lWrote /home/012/k/kt/kth140230/file1.cc[K[14;4H[34h[?25h[34l[23;6H[?25l[3m--[0m[39;49m[23m[14;4H[34h[?25h[34l[24;1H[K[14;4H[24;1H[?25l(No files need saving)[14;4H[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} emacs file2.cc
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...[K[H
+[34h[?25h[34l[24;20H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lLoading cc-langs...done[K[H[3mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[23m
+M
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[32mvoid[39;49m [1m[34mprocedure1[0m[39;49m(){[K
+  cerr << [32m"Inside procedure1() as stderr."[39;49m;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mfile2.cc    [0m[39;49m[23m[3m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} emacs compile.sh
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lSetting up indent for shell type bash[K[H
+[34h[?25h[34l[24;1H[?25lsetting up indent stuff[K[H
+[34h[?25h[34l[24;1H[?25lIndentation variables are now local.[H
+[34h[?25h[34l[24;13H[?25lsetup for shell type bash[H
+[34h[?25h[34l[24;1H[?25lIndentation setup for shell type bash[K[H[3mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[23m
+M
+[33m#!/bin/[39;49m[1m[36mbash[0m[39;49m[33m                                                                     [39;49m
+M
+[K
+[1m[34mecho[0m[39;49m [32m"Setting TEMPDIR enviroment variable to /scratch"[39;49m[K
+[33mTMPDIR[39;49m=/scratch; [1m[34mexport[0m[39;49m TEMPDIR[K
+[1m[34mecho[0m[39;49m [32m"Compiling file1.cc."[39;49m[K
+g++ -c file1.cc[K
+[1m[34mecho[0m[39;49m [32m"Compiling file2.cc."[39;49m[K
+g++ -c file2.cc[K
+[1m[34mecho[0m[39;49m [32m"Linking files file1.cc and file2.cc to create exectuable hw1"[39;49m[K
+g++ file1.o file2.o -o hw1[K
+[1m[34mecho[0m[39;49m [32m"Done!"[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mcompile.sh  [0m[39;49m[23m[3m   All L1     (Shell-script[bash]) --------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} emacs run.sh
+[?1049h[34l[?1h=[H[J[24;1H[K[?1l>[34h[?25h[?1049l[39;49m[?1049h[34l[?1h=[H[J[23;1H[?25l[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lrce)...[K[H[3mFile Edit Options Buffers Tools Help                                            [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Fundamental) ---------------------------[0m[39;49m[23m
+M
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+M[H
+[34h[?25h[34l[24;8H[?25ldone[H
+[34h[?25h[34l[24;1H[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[34h[?25h[34l[24;1H[?25lne[23;78Hdo\
+[H
+[34h[?25h[34l[24;1H[KM	[?25lterm/xterm...[K[H
+[34h[?25h[34l[23;22H[?25ldone[H
+[34h[?25h[34l[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[3mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[23m
+M
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[3m-UUU:----F1  [0m[39;49m[23m[3m[1m*scratch*   [0m[39;49m[23m[3m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[?25lSetting up indent for shell type bash[K[H
+[34h[?25h[34l[24;1H[?25lsetting up indent stuff[K[H
+[34h[?25h[34l[24;1H[?25lIndentation variables are now local.[H
+[34h[?25h[34l[24;13H[?25lsetup for shell type bash[H
+[34h[?25h[34l[24;1H[?25lIndentation setup for shell type bash[K[H[3mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[23m
+M
+[33m#!/bin/[39;49m[1m[36mbash[0m[39;49m[33m                                                                     [39;49m
+M
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 0 arguments:"[39;49m[K
+./hw1 >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 3 arguments:"[39;49m[K
+./hw1 abc ab bc >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[1m[34mecho[0m[39;49m [32m"Running 'hw1' with 5 arguments:"[39;49m[K
+./hw1 a b c d e >> stdout.txt 2> stderr.txt[K
+[1m[34mecho[0m[39;49m [32m"   stdout appended to stdout.txt"[39;49m[K
+[1m[34mecho[0m[39;49m [32m"   stderr appended to stderr.txt"[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[3m-UU-:----F1  [0m[39;49m[23m[3m[1mrun.sh      [0m[39;49m[23m[3m   All L1     (Shell-script[bash]) --------------------[0m[39;49m[23m
+M[H
+[34h[?25h[34l[24;1H[K[H
+[24;1H[?25l(No files need saving)[H
+[34h[?25h[34l[24;1H[K[?1l>[34h[?25h[?1049l[39;49m{cslinux1:~} ec[K[K./[K[K./compile.sh
+Setting TEMPDIR enviroment variable to /scratch
+Compiling file1.cc.
+Compiling file2.cc.
+Linking files file1.cc and file2.cc to create exectuable hw1
+Done!
+{cslinux1:~} ./run.sh
+Running 'hw1' with 0 arguments:
+   stdout appended to stdout.txt
+   stderr appended to stderr.txt
+Running 'hw1' with 3 arguments:
+   stdout appended to stdout.txt
+   stderr appended to stderr.txt
+Running 'hw1' with 5 arguments:
+   stdout appended to stdout.txt
+   stderr appended to stderr.txt
+{cslinux1:~} more stdout.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kless stdout.txt
+[?1049h[?1h=argc was: 1./hw1Done!argc was: 4./hw1abcabbcDone!argc was: 6./hw1abcdeDone!
+[3mstdout.txt (END)[23m[K[K[K[3m(END)[23m[K[K [KESCESC[KOO[KBB[K[K[3m(END)[23m[K[K [KESCESC[KOO[KBB[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[3m(END)[23m[K[K-[Klog file: [K[3m(END)[23m[K[K[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[HabbcDone!argc was: 6./hw1abcdeDone!
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KDD[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K/[K[K[3mNo previous regular expression  (press RETURN)[23m[24;1H[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K [KESCESC[KOO[KBB[K[K[3m(END)[23m[K[K [KESCESC[KOO[KBB[K[K[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KAA[K[K[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KAA[K[K[3m(END)[23m[K...skipping...
+
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KCC[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KDD[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KDD[H[J[H[H[J[H
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[3m(END)[23m[K[K [KESCESC[KOO[KAA[K[K[3m(END)[23m[K[K [KESCESC[KOO[KAA[K[K[3m(END)[23m[K

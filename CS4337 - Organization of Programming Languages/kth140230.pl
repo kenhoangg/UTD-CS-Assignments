@@ -1,0 +1,127 @@
+/* Odd Multiple of 3 function */
+oddMultOf3(I) :-
+    \+ integer(I),
+    !,
+    write('Error: Input is not an integer.'),
+    fail.
+oddMultOf3(I) :-
+    3 is I mod 6.
+
+/* List Product function */
+list_prod([], 0).
+list_prod([H|T], P) :-
+    product(T, H, P).
+
+product([], P, P).
+product([H|T], X, P) :-
+    product(T, H, P0),
+    P is P0 * X.
+
+/* Segregate */
+segregate([], [], []).
+segregate([I|Is], [I|E], O) :-
+    0 is I mod 2,
+    segregate(Is, E, O).
+segregate([I|Is], E, [I|O]) :-
+    1 is I mod 2,
+    segregate(Is, E, O).
+
+/* Route */
+flight(fresno, seattle).
+flight(fresno, albany).
+flight(seattle, omaha).
+flight(omaha, albany).
+flight(omaha, atlanta).
+flight(albany, seattle).
+flight(albany, dallas).
+flight(seattle, dallas).
+flight(dallas, seattle).
+flight(dallas, albany).
+flight(atlanta, dallas).
+flight(atlanta, albany).
+flight(atlanta, boston).
+flight(fresno, boston).
+
+
+route(X, Y, [X, Y]):-
+    flight(X, Y).
+route(X, Z, [X | Rest]):-
+    route(Y, Z, Rest),
+    flight(X, Y),
+    !.
+
+/* Genealogy */
+
+male(adam).
+male(bob).
+male(brett).
+male(charles).
+male(chris).
+male(clay).
+female(ava).
+female(barbara).
+female(betty).
+female(colette).
+female(carrie).
+parent(adam,bob).
+parent(adam,barbara).
+parent(ava,bob).
+parent(ava,barbara).
+parent(bob,clay).
+parent(barbara,colette).
+
+
+
+mother(X, Y) :-
+        female(X),
+        parent(X, Y).
+father(X, Y) :-
+        male(X),
+        parent(X,Y).
+child(X, Y) :-
+        parent(Y, X).
+daughter(X, Y) :-
+        parent(Y, X),
+        female(X).
+son(X, Y) :-
+        parent(Y,X),
+        male(X).
+sister(X, Y) :-
+        female(X),
+        parent(Q,X),
+        parent(Q,Y).
+brother(X, Y) :-
+        male(X),
+        parent(Q,X),
+        parent(Q,Y).
+sibling(X, Y) :-
+        parent(Q,X),
+        parent(Q,Y),
+        X\=Y,
+        !.
+uncle(X, Y) :-
+        parent(P,Y),
+        brother(X,P).
+aunt(X, Y) :-
+        parent(P,Y),
+        sister(X,P).
+grandparent(X,Y) :-
+    parent(X, A),
+    parent(A, Y).
+grandmother(X, Y) :-
+    mother(Y, B),
+    parent(B, X).
+grandmother(X, Y) :-
+    father(Y, C),
+    parent(C, X).
+grandchild(X, Y) :-
+    child(D, Y),
+    child(X, D).
+grandson(X,Y) :-
+    child(E,Y),
+    son(X, E).
+granddaughter(X,Y) :-
+    child(F,Y),
+    daughter(X,F).
+
+

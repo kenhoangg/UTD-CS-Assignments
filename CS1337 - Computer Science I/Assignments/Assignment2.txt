@@ -1,0 +1,24 @@
+Instructions for Assignment 2 - CS1 (Spring 2016)
+Open program in any compiler. Build and run.
+Menu similar to below should appear on console.
+Menu:
+1. Quadratic Equation Calculator
+2. Table of values
+3. Enter any other number to exit.
+
+Enter a number according to preferred option.
+Follow prompts that appear.
+
+Part 1:
+
+1. (2,3.5,5)
+x1 = -2.19196i
+x2 = 0.441957i
+
+2. (3,6,5.1)
+x1 = -1.83666i
+x2 = -0.16334i
+
+3. (1.0,9,2)
+x1 = -8.772
+x2 = -0.227998

@@ -1,0 +1,21 @@
+/* Comments */
+
+
+
+factorial(0,1).
+
+factorial(N,F) :-
+    N>0,
+    N1 is N-1,
+    factorial(N1,F1),
+    F is N * F1.
+
+/*--------------------------*/
+
+mystery(A,B):- mystery(A,[],B).
+mystery([X|Y],Z,W) :- mystery(Y,[X|Z],W).
+mystery([],X,X).
+
+xyz(X,[X|R],R).
+xyz(X,[F|R],[F|S]) :- xyz(X,R,S).
+

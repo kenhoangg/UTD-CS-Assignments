@@ -1,0 +1,39 @@
+Lexathon
+------------------
+Created by Aditya Buvanendiran, Changho Lee, Kenny Hoang, and Nick Ramos
+
+
+The link for the sample video is: 
+
+https://www.youtube.com/watch?v=xm6LFZd1xxY
+
+
+
+About Game:
+------------------
+Lexathon is an adaptation of the Android word game Lexathon.
+
+
+How to start game:
+------------------
+1. Have all files in the same location, e.g. Desktop.
+2. Launch Mars.
+3. Open the main.asm file.
+4. Assemble.
+5. Run.
+6. Press space to begin.
+
+
+Instructions:
+------------------
+1. At the start of the game you will have 60 seconds to find words in the 3x3 grid.
+2. The letter in the center of the grid is your key letter.
+3. During the 60 seconds you must find as many word combinations as you can using the provided letters.
+4. Every word that you enter MUST contain the key letter somewhere within the word.
+5. Every word that you enter MUST be AT LEAST four letters long.
+6. For every correct word you guess, you will receive an additional 10 seconds of time.
+7. For every correct word you guess, you will receive 2 points for every letter.
+8. The game ends when the time reaches ZERO or you type '0'(zero) to GIVE UP.
+9. Please turn on CAPS LOCK when playing the game. The letters must match exactly with letters given (capital)
+10. Please restart program if you would like to play again with a different word. Make sure to
+	clear all bars below and save all to dump memory before starting again.

@@ -1,0 +1,6 @@
+Inside procedure1() as stderr.
+Inside procedure1() as stderr.
+Inside procedure1() as stderr.
+bash: ./hw1: cannot execute binary file: Exec format error
+bash: ./hw1: cannot execute binary file: Exec format error
+bash: ./hw1: cannot execute binary file: Exec format error
