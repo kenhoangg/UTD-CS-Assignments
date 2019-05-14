@@ -1,0 +1,6 @@
+1. The program reads in values before it prints out the prompts. Because the text inputed was in the order that the values were read in, (char, then int and char again...)
+the variables instantiated were assigned those values. Then after the variables were assigned values, the compiler then printed out the prompts.
+
+2. The computer is waiting for a floating point number, the program reads the 1 as a char, a 89 as the integer, j as another char, and 110.5 as a string for the name.
+After inputing the "1" the program displays the 1 as the floating point number because when the program ran, it took the 110.5 as a string and assigned it to the 
+variable name.
