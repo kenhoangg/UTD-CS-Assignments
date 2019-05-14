@@ -6,5 +6,6 @@ Further applications of programming techniques, introducing the fundamental conc
 Assignments included in are fairly straight foward and execute the operation described.
 
 ## Final Project
-The final project we were tasked with creating a program that utilizes the fundamentals of OOP - Polymorphism, Encapsulation, Data Hiding, Abstraction, and Inheritance. The project should look like a program that could have real life application. 
+The final project we were tasked with creating a program that utilizes the fundamentals of OOP - Polymorphism, Encapsulation, Data Hiding, Abstraction, and Inheritance. The project should look like a program that could have real life application.
+
 Project Description: The topic of this project is to implement a warehouse manager program which creates a list of warehouses that the user is currently managing. The user can then do numerous activities on the warehouses such as change the size or update inventory, as well as add workers and modify their wage or hours. This program could be the base for a more complex management system that stores the values over a longer amount of time. 
